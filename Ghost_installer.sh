@@ -161,6 +161,7 @@ if which lsd >/dev/null; then
 else
 	sleep 1
 	echo -e "${White} lsd ${Red}(not installed)"
+	echo ""
 	echo -e "${White} lsd ${Blue}(installing)${White}..."
 	apt install lsd -y
 fi	
