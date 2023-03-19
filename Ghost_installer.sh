@@ -154,6 +154,16 @@ else
 	echo -e "${White} airgeddon ${Blue}(installing)${White}..."
 	apt install airgeddon -y
 fi
+
+if which lsd >/dev/null; then
+	sleep 1
+	echo -e "${White} lsd ${Blue}(installed)"
+else
+	sleep 1
+	echo -e "${White} lsd ${Red}(not installed)"
+	echo -e "${White} lsd ${Blue}(installing)${White}..."
+	apt install lsd -y
+fi	
 	echo ""
 	echo -e "${White} All dependencies are satisfied"
 exit
