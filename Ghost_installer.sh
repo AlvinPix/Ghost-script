@@ -47,6 +47,7 @@ else
 	echo ""
 	apt install metasploit-framework -y
 	msfdb init && msfconsole
+	echo ""
 fi
 
 if which macchanger >/dev/null; then
@@ -59,6 +60,7 @@ else
 	echo -e "${White} macchanger ${Blue}(installing)${White}..."
 	echo ""
 	apt install macchanger -y
+	echo ""
 fi
 
 if which rkhunter >/dev/null; then
@@ -71,6 +73,7 @@ else
 	echo -e "${White} rkhunter ${Blue}(installing)${White}..."
 	echo ""
 	apt install rkhunter -y
+	echo ""
 fi
 
 if which apache2 >/dev/null; then
@@ -83,28 +86,31 @@ else
 	echo -e "${White} apache2 ${Blue}(installing)${White}..."
 	echo ""
 	apt install apache2 -y
+	echo ""
 fi
 
-if which keytool >/dev/null; then
+if which zipalign >/dev/null; then
 	sleep 1
-	echo -e "${White} keytool ${Blue}(installed)"
+	echo -e "${White} zipalign ${Blue}(installed)"
 else
 	sleep 1
-	echo -e "${White} keytool ${Red}(not installed)"
+	echo -e "${White} zipalign ${Red}(not installed)"
 	echo ""
-	echo -e "${White} keytool ${Blue}(installing)${White}..."
-	apt install keytool -y
+	echo -e "${White} zipalign ${Blue}(installing)${White}..."
+	apt install zipalign -y
+	echo ""
 fi
 
-if which jarsigner >/dev/null; then
+if which apksigner >/dev/null; then
 	sleep 1
-	echo -e "${White} jarsigner ${Blue}(installed)"
+	echo -e "${White} apksigner ${Blue}(installed)"
 else
 	sleep 1
-	echo -e "${White} jarsigner ${Red}(not installed)"
+	echo -e "${White} apksigner ${Red}(not installed)"
 	echo ""
-	echo -e "${White} jarsigner ${Blue}(installing)${White}..."
-	apt install jarsigner -y
+	echo -e "${White} apksigner ${Blue}(installing)${White}..."
+	apt install apksigner -y
+	echo ""
 fi
 
 if which apktool >/dev/null; then
@@ -120,6 +126,7 @@ else
 	mv apktool_2.7.0.jar apktool.jar
 	chmod +x apktool apktool.jar
 	mv apktool apktool.jar /usr/bin
+	echo ""
 fi
 
 if which netdiscover >/dev/null; then
@@ -131,6 +138,7 @@ else
 	echo ""
 	echo -e "${White} netdiscover ${Blue}(installing)${White}..."
 	apt install netdiscover -y
+	echo ""
 fi
 
 if which wifite >/dev/null; then
@@ -142,6 +150,7 @@ else
 	echo ""
 	echo -e "${White} wifite ${Blue}(installing)${White}..."
 	apt install wifite -y
+	echo ""
 fi
 
 if which airgeddon >/dev/null; then
@@ -153,6 +162,7 @@ else
 	echo ""
 	echo -e "${White} airgeddon ${Blue}(installing)${White}..."
 	apt install airgeddon -y
+	echo ""
 fi
 
 if which lsd >/dev/null; then
@@ -164,6 +174,19 @@ else
 	echo ""
 	echo -e "${White} lsd ${Blue}(installing)${White}..."
 	apt install lsd -y
+	echo ""
+fi
+
+if which default-jdk >/dev/null; then
+	sleep 1
+	echo -e "${White} default-jdk ${Blue}(installed)"
+else
+	sleep 1
+	echo -e "${White} default-jdk ${Red}(not installed)"
+	echo ""
+	echo -e "${White} default-jdk ${Blue}(installing)${White}..."
+	apt install default-jdk -y
+	echo ""
 fi	
 	echo ""
 	echo -e "${White} All dependencies are satisfied"
