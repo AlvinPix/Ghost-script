@@ -60,7 +60,7 @@ case $macghostchange in
 
 0)
 cd $directory
-./Ghost
+./Ghost.sh
 ;;
 
 1)
