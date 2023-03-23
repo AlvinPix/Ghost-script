@@ -9,6 +9,9 @@
 # Computadora a través de múltiples redes. Al cambiar la dirección MAC con regularidad, este tipo de seguimiento
 # Se puede frustrar o, al menos, dificultar mucho más.
 
+# Working directory
+directory=$(pwd)
+
 # Colors
 Black='\033[1;30m'
 Red='\033[1;31m'
