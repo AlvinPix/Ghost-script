@@ -213,7 +213,7 @@ case $ghostopt in
 
 0)
 cd $directory
-./Ghost
+./Ghost.sh
 ;;
 
 r)
