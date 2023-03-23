@@ -15,7 +15,7 @@ Video: https://youtu.be/OeS0GnyHSqU
 ```
 $ git clone https://github.com/AlvinPix/Ghost-script.git
 $ cd Ghost-script
-$ sudo chmod +x *
+$ chmod +x *
 $ sudo ./Ghost_installer.sh
 ```
 # Running ☠
