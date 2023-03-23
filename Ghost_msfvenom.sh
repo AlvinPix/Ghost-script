@@ -214,7 +214,7 @@ case $ghostopt in
 0)
 cd $directory
 ./Ghost.sh
-;;
+ghostmsfvenom ;;
 
 r)
 echo -e "${White} Removing payloads from the ${Blue}(Generated) ${White}folder"
