@@ -61,7 +61,7 @@ case $macghostchange in
 0)
 cd $directory
 ./Ghost.sh
-;;
+usage_macchanger ;;
 
 1)
 echo ""
