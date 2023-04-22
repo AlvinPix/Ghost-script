@@ -44,7 +44,7 @@ echo -e "${White} [${Yellow}0${White}] Exit script"
 echo ""
 echo -e "${White} [${Yellow}it${White}] Metasploit          ${White} [${Yellow}mf${White}] Msfvenom"
 echo -e "${White} [${Yellow}ne${White}] Netdiscover         ${White} [${Yellow}ma${White}] Macchanger"
-echo -e "${White} [${Yellow}ai${White}] Airgeddon"
+echo -e "${White} [${Yellow}ai${White}] Airgeddon           ${White} [${Yellow}li${White}] Listeners"
 echo -e "${White} [${Yellow}wi${White}] Wifite"
 echo -e "${White} [${Yellow}rk${White}] Rkhunter"
 echo ""
@@ -191,11 +191,18 @@ echo -ne "${White} Press any key to continue..."
 read
 ghostmenu ;;
 
+li)
+cd $directory
+./Ghost_listeners.sh
+ghostmenu ;;
+
 * )
 echo -e "${Blue} The option is not valid please choose a number or letters"
 sleep 1
 ghostmenu ;;
 esac
 }
+
+# Call menus the script Ghost
 reset
 ghostmenu
