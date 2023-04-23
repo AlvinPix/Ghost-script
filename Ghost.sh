@@ -165,6 +165,7 @@ ghostmenu ;;
 5)
 echo ""
 echo -e "${White} Server open in the ${Blue}(Generated)${White} folder"
+echo -e "${White} IPV4 ${Blue}(${lanip})"
 echo -e "${White} Press ${Blue}(Ctrl + C)${White} to stop"
 echo ""
 cd $directory/Generated && python3 -m http.server 8080
