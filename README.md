@@ -6,23 +6,20 @@ Ghostscript is a suite of multifunction bash scripts with various utilities
 
 [![Ghostimg.png](https://i.postimg.cc/yxWgxCQ4/Ghostimg.png)](https://postimg.cc/fSnTqpQB)
 
-## YouTube 🎧
+## Review 🎧
 
-https://youtu.be/OeS0GnyHSqU
+[Youtube](https://youtu.be/OeS0GnyHSqU)
 
-## Install ✍
+## Install and running ✍☠
 
-```
+```java
 git clone https://github.com/AlvinPix/Ghost-script.git
 cd Ghost-script
 chmod +x *
 sudo ./Ghost_installer.sh
-```
-## Running ☠
-
-```
 sudo ./Ghost.sh
 ```
+
 ## Supported distributions Ghost-script ⌛
 
 | Distribution |   State       |
