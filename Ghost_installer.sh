@@ -3,6 +3,9 @@
 # Working directory
 directory=$(pwd)
 
+# Get usarname
+user=$(whoami)
+
 # Colors
 Black='\033[1;30m'
 Red='\033[1;31m'
@@ -190,7 +193,19 @@ else
 fi	
 	echo ""
 	echo -e "${White} All dependencies are satisfied"
-exit
+	echo ""
+	echo -e "${White} You want to create a shortcut command ${Blue}Y/N"
+	echo ""
+	echo -ne "${White} Ghost > ${Yellow}"
+	read shortcut
+	echo ""
+if [ $shortcut = Y ]; then
+	sleep 1
+	cd /home/${user}
+	echo alias Ghostscript="bash $directory/Ghost.sh" >> .zshrc
+else
+	exit 1
+fi
 }
 
 # Call menus
