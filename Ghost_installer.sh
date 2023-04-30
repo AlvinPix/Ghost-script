@@ -204,7 +204,7 @@ if [ $shortcut = Y ]; then
 	cd /home/${user}
 	echo alias Ghostscript="bash $directory/Ghost.sh" >> .zshrc
 else
-	exit 1
+	exit 
 fi
 }
 
