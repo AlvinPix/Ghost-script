@@ -2,15 +2,15 @@
 
 Ghostscript is a suite of multifunction bash scripts with various utilities
 
-## Screenshot 📷
+## Screenshot
 
 [![Ghostimg.png](https://i.postimg.cc/yxWgxCQ4/Ghostimg.png)](https://postimg.cc/fSnTqpQB)
 
-## Review 🎧
+## Review
 
 [Youtube](https://youtu.be/OeS0GnyHSqU)
 
-## Install and running ✍☠
+## Install and running
 
 ```java
 git clone https://github.com/AlvinPix/Ghost-script.git
@@ -20,7 +20,7 @@ sudo ./Ghost_installer.sh
 sudo ./Ghost.sh
 ```
 
-## Supported distributions Ghost-script ⌛
+## Supported distributions
 
 | Distribution |   State       |
 |--------------|---------------| 
@@ -28,7 +28,7 @@ sudo ./Ghost.sh
 | Debian       | Compatible    |
 | Parrot OS    | Compatible    |
 
-## Dependencies ⛏
+## Dependencies 
 
 - metasploit-framework
 - macchanger
