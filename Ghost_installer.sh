@@ -3,9 +3,6 @@
 # Working directory
 directory=$(pwd)
 
-# Get usarname
-user=$(whoami)
-
 # Colors
 Black='\033[1;30m'
 Red='\033[1;31m'
@@ -202,8 +199,9 @@ fi
 if [ $shortcut = Y ]; then
 	sleep 1
 	cd /home/${user}
-	echo alias Ghostscript="bash $directory/Ghost.sh" >> .zshrc
+	echo 'alias Ghostscript="bash $directory/Ghost.sh"' >>~/.zshrc
 else
+	sleep 1
 	exit 
 fi
 }
