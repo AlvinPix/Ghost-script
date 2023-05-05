@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Author: Enríquez González https://github.com/AlvinPix
+# instagram: @alvinpx_271
+# facebook: @alvin.gonzalez.13139
+
 # Host discovery
 lanip=$(ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1 -d'/')
 
