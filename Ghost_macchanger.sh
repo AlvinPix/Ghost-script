@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Author: Enríquez González https://github.com/AlvinPix
+# instagram: @alvinpx_271
+# facebook: @alvin.gonzalez.13139
+
 # MACCHANGER
 
 # GNU MAC Changer es una utilidad que facilita la manipulación de las direcciones MAC de las interfaces de red.
