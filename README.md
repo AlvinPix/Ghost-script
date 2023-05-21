@@ -1,4 +1,4 @@
-## <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/animated/1f480.gif" width ="50"><b> Ghost-script</b><br>
+## <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/animated/1f480.gif" width ="50"><b> Ghost</b><br>
 
 Ghostscript is a suite of multifunction bash scripts with various utilities
 
