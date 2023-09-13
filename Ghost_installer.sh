@@ -126,8 +126,8 @@ else
 	echo -e "${White} apktool ${Blue}(installing)${White}..."
 	echo ""
 	curl https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool >apktool
-	wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.7.0.jar
-	mv apktool_2.7.0.jar apktool.jar
+	wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.8.1.jar
+	mv apktool_2.8.1.jar apktool.jar
 	chmod +x apktool apktool.jar
 	mv apktool apktool.jar /usr/bin
 	echo ""
